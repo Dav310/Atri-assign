@@ -1,0 +1,421 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    font-family: 'DM Sans', sans-serif;
+}
+li a{
+    color: rgb(105 105 105); 
+    text-decoration: none;
+    
+    
+}
+li a:hover{
+    text-decoration: none;
+    color: rgb(105 105 105); 
+}
+nav{
+    
+    padding: 10px 0px 30px;
+    display: flex;
+    justify-content: 100px;
+    align-items: center;
+  
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-items:space-around;
+    margin-right: 60px;
+    margin-left: -160px;
+}
+li{
+    display: grid;
+    grid-template-columns: repeat(5,15px);
+    align-items: center;
+    padding-top: 20px;
+   
+    
+}
+.header-nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 30px;
+    font-family: DM Sans;
+    font-weight:500px;
+    font-size: 18px;
+    color: rgb(105 105 105);
+    cursor: pointer;
+}
+.header-button{
+    display: flex;
+    column-gap: 30px;
+    font-family: DM Sans;
+    font-weight:500px;
+    font-size: 18px;
+    position: sticky;
+}
+.header-button-1{
+  
+    color: rgb(0 0 0);
+    background-color: rgb(255 255 255);
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    font-size: 16px;
+    border-radius: 50px;
+    outline: none;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(204 204 204);
+    cursor: pointer;
+    
+}
+.header-button-2{
+    color: rgb(255 255 255);
+    background-color: rgb(255 118 41);
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    font-size: 16px;
+    border-radius: 50px;
+    outline: none;
+    font-weight: 500;
+    text-align: center;
+    border-width: 1px;
+    border-style: none;
+    border-color: rgb(24 144 255);
+    cursor: pointer;
+    font-family: DM Sans;
+}
+
+                    /* section-1-menu */
+
+.menu1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    padding-top: 100px;
+}
+.menu1-head{
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 42px;
+}
+.menu1-para{
+    width: 50%;
+    text-align: center;
+}
+.menu1-but{
+    display: flex;
+    column-gap: 20px;
+    padding-top: 25px;
+}
+.menu1-but1{
+    color: rgb(255 255 255);
+    background-color: rgb(255 118 41);
+    padding-top: 8px;
+    padding-left: 15px;
+    padding-bottom: 8px;
+    padding-right: 15px;
+    font-size: 16px;
+    border-radius: 15px;
+    outline: none;
+    font-weight: 400;
+    text-align: center;
+    border-width: 1px;
+    border-style: none;
+    border-color: rgb(24 144 255);
+    cursor: pointer;
+}
+.menu1-but2{
+    color: rgb(0 0 0);
+    background-color: rgb(255 255 255);
+    padding-top: 8px;
+    padding-left: 15px;
+    padding-bottom: 8px;
+    padding-right: 15px;
+    font-size: 16px;
+    border-radius: 25px;
+    outline: none;
+    font-weight: 400;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(215 215 215);
+    cursor: pointer;
+    font-family: DM Sans;
+}
+
+                        /* section-menu-6 */
+.row{
+    row-gap: 10px;
+}
+
+.section-6-heading{
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+}
+
+.section-6-para{
+    font-family: DM Sans;
+    font-weight: 500;
+    color: #727272;
+    left: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+.section-6-Product-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+}
+
+.section-6-product-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-6-price-container {
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #fffbfb;
+    position: relative;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    left: 60px;
+    top: 60px;
+}
+
+
+.section-6-price-list{
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 16px;
+}
+.section-6-product-heading {
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.section-6-product-para {
+    width: 250px;
+    height: 50px;
+    max-height: 100px;
+    font-family: DM Sans;
+    font-weight: 500;
+    color: #686868;
+    font-size: 16px;
+    text-align: center;
+}
+
+.section-6-button {
+    display: flex;
+    column-gap: 30px;
+    column-gap: 30px;
+    justify-content: center;
+    padding-top:50px ;
+    padding-bottom: 200px;
+}
+
+.section-6-button-1 {
+    color: #fff;
+    background-color: #FF7629;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    font-size: 16px;
+    border-radius: 50px;
+    outline: none;
+    font-weight: 500;
+    text-align: center;
+    border-width: 1px;
+    border-style: none;
+    border-color: #1890ff;
+    cursor: pointer;
+    font-family: DM Sans;
+}
+
+.section-6-button-2{
+    color: #000000;
+    background-color: #ffffff;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    font-size: 16px;
+    border-radius: 50px;
+    font-weight: 500;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #cccccc;
+    cursor: pointer;
+    font-family: DM Sans;
+}
+
+                /* section-menu-3 */
+
+.menu3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+}
+.menu3-p1{
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 42px;
+}
+.menu3-p2{
+    width: 50%;
+    text-align: center;
+}
+.menu3-mid{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding-top: 30px;  
+}
+.menu3-mid-top{
+    display: flex;
+    column-gap: 25px;
+    justify-content: space-between;
+}
+.menu3-mid-top1{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(209 209 209);
+    box-sizing: content-box;
+    width: 150px;
+    justify-content: center;
+}
+.menu3-mid-top1-image{
+    width: 130px;
+    height: 30px;
+}
+
+                    /* section-menu-12*/
+
+.section-12-container {
+    display: flex;
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+    -moz-column-gap: 40px;
+    column-gap: 40px;
+    padding-bottom: 50px;
+    justify-content: space-between;
+}
+.section-12-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    row-gap: 13px;
+    width: 40%;
+}
+
+.section-12-left-para{
+    width: 100%;
+    font-family: DM Sans;
+    font-weight: 500;
+    color: #6a6868;
+}
+
+
+
+.sectiion-12-left-star-container {
+    display: flex;
+    column-gap: 10px;
+
+}
+
+.sectiion-12-left-star-image {
+    width: 30px;
+    height: 30px;
+}
+
+.section-12-middle-container {
+    display: flex;
+}
+
+.section-12-middle-p1 {
+    display: flex;
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 20px;
+    align-items: flex-start;
+    flex-direction: column;
+    row-gap: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.section-12-middle-heading {
+    padding-bottom: 20px;
+    padding-right: 40px;
+    font-size: 20px;
+}
+
+.section-12-middle-list{
+    font-size: 16px;
+    font-family: DM Sans;
+    font-weight: 500;
+    color: #7f7c7c;
+}
+
+.section-12-right-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 20px;
+}
+
+.section-12-right-heading{
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+.section-12-right-img-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.section-12-right-img{
+    display: flex;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+}
+
+.section-12-img{
+    width: 145px;
+    height: 145px;
+    border-radius: 25px;
+}
